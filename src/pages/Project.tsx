@@ -12,10 +12,7 @@ export default function Project() {
                 <div className="flex flex-wrap -m-4">
                     <div className="xl:w-1/3 md:w-1/2 p-4">
                         <div className="border border-gray-200 p-6 rounded-lg">
-
-                            <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Project-1</h2>
-                            <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis velit euismod, ullamcorper libero eu, consequat mauris. Nunc quis turpis quis ligula aliquam malesuada at at metus. Praesent nec velit felis. Sed laoreet est quis odio fringilla, ac tristique eros volutpat. Fusce vel diam eu purus malesuada bibendum. Nulla facilisi.</p>
-                            <div className='relative w-52 h-52  items-center m-auto '>
+                            <div className='relative w-full h-52  items-center m-auto '>
                                 <Image
                                     src="/assets/images/heroimage.jpg"
                                     alt="Hero Section"
@@ -24,14 +21,15 @@ export default function Project() {
                                     quality={100}
                                 />
                             </div>
+                            <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Project-1</h2>
+
+                            <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis velit euismod, ullamcorper libero eu, consequat mauris. Nunc quis turpis quis ligula aliquam malesuada at at metus. Praesent nec velit felis. Sed laoreet est quis odio fringilla, ac tristique eros volutpat. Fusce vel diam eu purus malesuada bibendum. Nulla facilisi.</p>
+
                         </div>
                     </div>
                     <div className="xl:w-1/3 md:w-1/2 p-4">
                         <div className="border border-gray-200 p-6 rounded-lg">
-
-                            <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Project-1</h2>
-                            <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis velit euismod, ullamcorper libero eu, consequat mauris. Nunc quis turpis quis ligula aliquam malesuada at at metus. Praesent nec velit felis. Sed laoreet est quis odio fringilla, ac tristique eros volutpat. Fusce vel diam eu purus malesuada bibendum. Nulla facilisi.</p>
-                            <div className='relative w-52 h-52  items-center m-auto '>
+                            <div className='relative w-full h-52  items-center m-auto '>
                                 <Image
                                     src="/assets/images/heroimage.jpg"
                                     alt="Hero Section"
@@ -40,14 +38,14 @@ export default function Project() {
                                     quality={100}
                                 />
                             </div>
+                            <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Project-1</h2>
+                            <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis velit euismod, ullamcorper libero eu, consequat mauris. Nunc quis turpis quis ligula aliquam malesuada at at metus. Praesent nec velit felis. Sed laoreet est quis odio fringilla, ac tristique eros volutpat. Fusce vel diam eu purus malesuada bibendum. Nulla facilisi.</p>
+
                         </div>
                     </div>
                     <div className="xl:w-1/3 md:w-1/2 p-4">
                         <div className="border border-gray-200 p-6 rounded-lg">
-
-                            <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Project-1</h2>
-                            <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis velit euismod, ullamcorper libero eu, consequat mauris. Nunc quis turpis quis ligula aliquam malesuada at at metus. Praesent nec velit felis. Sed laoreet est quis odio fringilla, ac tristique eros volutpat. Fusce vel diam eu purus malesuada bibendum. Nulla facilisi.</p>
-                            <div className='relative w-52 h-52  items-center m-auto '>
+                            <div className='relative w-full h-52  items-center m-auto '>
                                 <Image
                                     src="/assets/images/heroimage.jpg"
                                     alt="Hero Section"
@@ -56,14 +54,14 @@ export default function Project() {
                                     quality={100}
                                 />
                             </div>
+                            <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Project-1</h2>
+                            <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis velit euismod, ullamcorper libero eu, consequat mauris. Nunc quis turpis quis ligula aliquam malesuada at at metus. Praesent nec velit felis. Sed laoreet est quis odio fringilla, ac tristique eros volutpat. Fusce vel diam eu purus malesuada bibendum. Nulla facilisi.</p>
+
                         </div>
                     </div>
                     <div className="xl:w-1/3 md:w-1/2 p-4">
                         <div className="border border-gray-200 p-6 rounded-lg">
-
-                            <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Project-1</h2>
-                            <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis velit euismod, ullamcorper libero eu, consequat mauris. Nunc quis turpis quis ligula aliquam malesuada at at metus. Praesent nec velit felis. Sed laoreet est quis odio fringilla, ac tristique eros volutpat. Fusce vel diam eu purus malesuada bibendum. Nulla facilisi.</p>
-                            <div className='relative w-52 h-52  items-center m-auto '>
+                            <div className='relative w-full h-52  items-center m-auto '>
                                 <Image
                                     src="/assets/images/heroimage.jpg"
                                     alt="Hero Section"
@@ -72,14 +70,14 @@ export default function Project() {
                                     quality={100}
                                 />
                             </div>
+                            <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Project-1</h2>
+                            <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis velit euismod, ullamcorper libero eu, consequat mauris. Nunc quis turpis quis ligula aliquam malesuada at at metus. Praesent nec velit felis. Sed laoreet est quis odio fringilla, ac tristique eros volutpat. Fusce vel diam eu purus malesuada bibendum. Nulla facilisi.</p>
+
                         </div>
                     </div>
                     <div className="xl:w-1/3 md:w-1/2 p-4">
                         <div className="border border-gray-200 p-6 rounded-lg">
-
-                            <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Project-1</h2>
-                            <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis velit euismod, ullamcorper libero eu, consequat mauris. Nunc quis turpis quis ligula aliquam malesuada at at metus. Praesent nec velit felis. Sed laoreet est quis odio fringilla, ac tristique eros volutpat. Fusce vel diam eu purus malesuada bibendum. Nulla facilisi.</p>
-                            <div className='relative w-52 h-52  items-center m-auto '>
+                            <div className='relative w-full h-52  items-center m-auto '>
                                 <Image
                                     src="/assets/images/heroimage.jpg"
                                     alt="Hero Section"
@@ -88,14 +86,14 @@ export default function Project() {
                                     quality={100}
                                 />
                             </div>
+                            <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Project-1</h2>
+                            <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis velit euismod, ullamcorper libero eu, consequat mauris. Nunc quis turpis quis ligula aliquam malesuada at at metus. Praesent nec velit felis. Sed laoreet est quis odio fringilla, ac tristique eros volutpat. Fusce vel diam eu purus malesuada bibendum. Nulla facilisi.</p>
+
                         </div>
                     </div>
                     <div className="xl:w-1/3 md:w-1/2 p-4">
                         <div className="border border-gray-200 p-6 rounded-lg">
-
-                            <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Project-1</h2>
-                            <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis velit euismod, ullamcorper libero eu, consequat mauris. Nunc quis turpis quis ligula aliquam malesuada at at metus. Praesent nec velit felis. Sed laoreet est quis odio fringilla, ac tristique eros volutpat. Fusce vel diam eu purus malesuada bibendum. Nulla facilisi.</p>
-                            <div className='relative w-52 h-52  items-center m-auto '>
+                            <div className='relative w-full h-52  items-center m-auto '>
                                 <Image
                                     src="/assets/images/heroimage.jpg"
                                     alt="Hero Section"
@@ -104,6 +102,9 @@ export default function Project() {
                                     quality={100}
                                 />
                             </div>
+                            <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Project-1</h2>
+                            <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis velit euismod, ullamcorper libero eu, consequat mauris. Nunc quis turpis quis ligula aliquam malesuada at at metus. Praesent nec velit felis. Sed laoreet est quis odio fringilla, ac tristique eros volutpat. Fusce vel diam eu purus malesuada bibendum. Nulla facilisi.</p>
+
                         </div>
                     </div>
                 </div>
