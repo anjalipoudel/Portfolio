@@ -5,15 +5,16 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <div className="flex-wrap flex-col lg:flex justify-center items-center  gap-7 text-lg font-normal font-jost  text-gray-700 ">
+    <div className="flex-wrap flex-col lg:flex justify-center items-center  gap-7 text-base font-normal font-jost  text-gray-700 ">
       <div className="flex flex-col m-5 pt-12 gap-10 lg:flex-row justify-center items-start lg:items-center lg:mx-44  lg:gap-20">
         <div className="flex flex-col w-full lg:w-2/5 leading-normal gap-2">
           <div className="flex flex-col">
-            <div className="h-14 w-40">LOGO
-            </div>
+
+            <Link href='/' className="h-14 w-40 text-base font-bold">LOGO</Link>
 
             <div>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit
+              It is a long established fact that a <br /> reader will be distracted
+              lookings.
             </div>
           </div>
           <>
@@ -22,7 +23,7 @@ export default function Footer() {
         </div>
         <div className="grid grid-cols-1 justify-start gap-3 md:grid-cols-2 lg:grid-cols-3 lg:items-center">
           <div className="flex flex-col">
-            <div className="font-DmserifDisplay text-gray-800">Pages</div>
+            <div className="font-DmserifDisplay text-gray-800 text-base font-bold">Pages</div>
             <div className="flex flex-col leading-relaxed lg:leading-loose w-fit ">
               {Pages.map((page) => (
                 <Link passHref href={page.link}>
@@ -32,17 +33,17 @@ export default function Footer() {
             </div>
           </div>
           <div className="flex flex-col">
-            <div className="font-DmserifDisplay text-gray-800">skills</div>
+            <div className="font-DmserifDisplay text-gray-800 text-base font-bold">Services</div>
             <div className="flex flex-col leading-relaxed lg:leading-loose w-fit ">
-              {Skills.map((skill) => (
-                <Link passHref href={skill.link}>
-                  <div>{skill.title}</div>
+              {Skills.map((service) => (
+                <Link passHref href={service.link}>
+                  <div>{service.title}</div>
                 </Link>
               ))}
             </div>
           </div>
           <div className="flex flex-col gap-3">
-            <div className="font-DmserifDisplay text-gray-800">Contact</div>
+            <div className="font-DmserifDisplay text-gray-800 text-base font-bold">Contact</div>
             <div className="flex flex-col gap-1 lg:gap-3">
               <div>Address</div>
               <div>Email</div>
@@ -53,7 +54,7 @@ export default function Footer() {
       </div>
       <div className="w-full bg-[#E5E5E5] h-0.5 lg:h-[1px] mt-5"></div>
       <div className="flex items-center justify-center mx-2">
-        Copyright &#169; Portfolio | Designed by Anjali Poudel
+        Copyright &#169; Bakas | Designed by Astranix
       </div>
       <div className="h-4"></div>
     </div>
@@ -61,19 +62,19 @@ export default function Footer() {
 }
 
 const Pages = [
-  { title: "Home", link: "#" },
-  { title: "CV ", link: "#" },
-  { title: "Project", link: "#" },
-  { title: "Writing", link: "#" },
-  { title: "Contact", link: "#" },
+  { title: " About ", link: "#" },
+  { title: " Skills", link: "#" },
+  { title: " Project ", link: "#" },
+  { title: " Writing ", link: "#" },
+  { title: " Contact ", link: "#" },
 ];
 
 const Skills = [
-  { title: "skills", link: "#" },
-  { title: "skills ", link: "#" },
-  { title: "skills", link: "#" },
-  { title: "skills ", link: "#" },
-  { title: "skills", link: "#" },
+  { title: "Skills", link: "#" },
+  { title: " Skills", link: "#" },
+  { title: "Skills", link: "#" },
+  { title: "Skills ", link: "#" },
+  { title: "Skills", link: "#" },
 ];
 
 const SocialIcons = () => {

@@ -13,6 +13,9 @@ export default function Skills() {
                         <div className="flex-grow pl-6">
                             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">Skills</h2>
                             <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis velit euismod, ullamcorper libero eu, consequat mauris. Nunc quis turpis quis ligula aliquam malesuada at at metus. Praesent nec velit felis. Sed laoreet est quis odio fringilla, ac tristique eros volutpat. Fusce vel diam eu purus malesuada bibendum. Nulla facilisi. Duis eget dolor non mi faucibus efficitur. Nam ullamcorper malesuada libero id auctor</p>
+                            <div className='w-full  h-7 rounded-xl'>
+                                <div className='justify-start  text-white flex bg-slate-500 w-3/4 '>80%</div>
+                            </div>
 
                         </div>
                     </div>
@@ -21,7 +24,9 @@ export default function Skills() {
                         <div className="flex-grow pl-6">
                             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">Skills</h2>
                             <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis velit euismod, ullamcorper libero eu, consequat mauris. Nunc quis turpis quis ligula aliquam malesuada at at metus. Praesent nec velit felis. Sed laoreet est quis odio fringilla, ac tristique eros volutpat. Fusce vel diam eu purus malesuada bibendum. Nulla facilisi. Duis eget dolor non mi faucibus efficitur. Nam ullamcorper malesuada libero id auctor</p>
-
+                            <div className='w-full  h-7 rounded-xl'>
+                                <div className='justify-start  text-white flex bg-slate-500 w-3/4 '>80%</div>
+                            </div>
                         </div>
                     </div>
                     <div className="p-4 md:w-1/3 flex">
@@ -29,7 +34,9 @@ export default function Skills() {
                         <div className="flex-grow pl-6">
                             <h2 className="text-gray-900 text-lg title-font font-medium mb-2">Skills</h2>
                             <p className="leading-relaxed text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis velit euismod, ullamcorper libero eu, consequat mauris. Nunc quis turpis quis ligula aliquam malesuada at at metus. Praesent nec velit felis. Sed laoreet est quis odio fringilla, ac tristique eros volutpat. Fusce vel diam eu purus malesuada bibendum. Nulla facilisi. Duis eget dolor non mi faucibus efficitur. Nam ullamcorper malesuada libero id auctor</p>
-
+                            <div className='w-full  h-7 rounded-xl'>
+                                <div className='justify-start  text-white flex bg-slate-500 w-3/4 '>80%</div>
+                            </div>
                         </div>
                     </div>
 
