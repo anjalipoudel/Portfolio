@@ -1,6 +1,7 @@
 
 import { InstagramIcon, LinkedinIcon, TwitterIcon } from "@/assets/icons";
 import { FacebookIcon } from "@/assets/icons/FacebookIcon";
+import index from "@/pages";
 import Link from "next/link";
 
 export default function Footer() {
@@ -25,8 +26,8 @@ export default function Footer() {
           <div className="flex flex-col">
             <div className="font-DmserifDisplay text-gray-800 text-base font-bold">Pages</div>
             <div className="flex flex-col leading-relaxed lg:leading-loose w-fit ">
-              {Pages.map((page) => (
-                <Link passHref href={page.link}>
+              {Pages.map((page, index) => (
+                <Link passHref href={page.link} key={index}>
                   <div>{page.title}</div>
                 </Link>
               ))}
@@ -35,9 +36,9 @@ export default function Footer() {
           <div className="flex flex-col">
             <div className="font-DmserifDisplay text-gray-800 text-base font-bold">Services</div>
             <div className="flex flex-col leading-relaxed lg:leading-loose w-fit ">
-              {Skills.map((service) => (
-                <Link passHref href={service.link}>
-                  <div>{service.title}</div>
+              {Skills.map((skill, index) => (
+                <Link passHref href={skill.link} >
+                  <div>{skill.title}</div>
                 </Link>
               ))}
             </div>
