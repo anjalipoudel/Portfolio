@@ -8,7 +8,7 @@ export default function AppHeader() {
                 <Link href='/'>
                     LOGO
                 </Link></div>
-            <div className="flex rounded p-2 justify-end text-base font-bold lg:bg-slate-400 lg:order-last"><Link href='/'>
+            <div className="flex rounded p-2 justify-end text-base font-bold lg:bg-slate-400 lg:order-last"><Link href='/assets/images/CDC_UNIT-1.pdf'>
                 CV
             </Link></div>
             <div className="flex justify-start lg:justify-center col-span-2 items-center">

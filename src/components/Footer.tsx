@@ -1,97 +1,119 @@
-
-import { InstagramIcon, LinkedinIcon, TwitterIcon } from "@/assets/icons";
-import { FacebookIcon } from "@/assets/icons/FacebookIcon";
-import index from "@/pages";
-import Link from "next/link";
+import Link from 'next/link'
+import React from 'react'
 
 export default function Footer() {
   return (
-    <div className="flex-wrap flex-col lg:flex justify-center items-center  gap-7 text-base font-normal font-jost  text-gray-700 ">
-      <div className="flex flex-col m-5 pt-12 gap-10 lg:flex-row justify-center items-start lg:items-center lg:mx-44  lg:gap-20">
-        <div className="flex flex-col w-full lg:w-2/5 leading-normal gap-2">
-          <div className="flex flex-col">
-
-            <Link href='/' className="h-14 w-40 text-base font-bold">LOGO</Link>
-
-            <div>
-              It is a long established fact that a <br /> reader will be distracted
-              lookings.
-            </div>
-          </div>
-          <>
-            <SocialIcons />
-          </>
+    <footer className="text-gray-600 body-font">
+      <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+        <div className="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+          <div className="flex rounded p-2  text-base font-bold">
+            <Link href='/'>
+              LOGO
+            </Link></div>
+          <p className="mt-2 text-sm text-gray-500">Lorem dolor sit amet, consectetur adipiscing elit. Nullam quis velit euismod,</p>
         </div>
-        <div className="grid grid-cols-1 justify-start gap-3 md:grid-cols-2 lg:grid-cols-3 lg:items-center">
-          <div className="flex flex-col">
-            <div className="font-DmserifDisplay text-gray-800 text-base font-bold">Pages</div>
-            <div className="flex flex-col leading-relaxed lg:leading-loose w-fit ">
-              {Pages.map((page, index) => (
-                <Link passHref href={page.link} key={index}>
-                  <div>{page.title}</div>
-                </Link>
-              ))}
-            </div>
+        <div className="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">LOREM</h2>
+            <nav className="list-none mb-10">
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">LOREM</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">LOREM</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">LOREM</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">LOREM</a>
+              </li>
+            </nav>
           </div>
-          <div className="flex flex-col">
-            <div className="font-DmserifDisplay text-gray-800 text-base font-bold">Services</div>
-            <div className="flex flex-col leading-relaxed lg:leading-loose w-fit ">
-              {Skills.map((skill, index) => (
-                // <Link passHref href={skill.link} key={index} >
-                <div key={index}>{skill.title}</div>
-                // </Link>
-              ))}
-            </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">LOREM</h2>
+            <nav className="list-none mb-10">
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">LOREM</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">LOREM</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">LOREM</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">LOREM</a>
+              </li>
+            </nav>
           </div>
-          <div className="flex flex-col gap-3">
-            <div className="font-DmserifDisplay text-gray-800 text-base font-bold">Contact</div>
-            <div className="flex flex-col gap-1 lg:gap-3">
-              <div>Address</div>
-              <div>Email</div>
-              <div>Phone Number</div>
-            </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">LOREM</h2>
+            <nav className="list-none mb-10">
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">LOREM</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">LOREM</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">LOREM</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">LOREM</a>
+              </li>
+            </nav>
+          </div>
+          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+            <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">LOREM</h2>
+            <nav className="list-none mb-10">
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">LOREM</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">LOREM</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">LOREM</a>
+              </li>
+              <li>
+                <a className="text-gray-600 hover:text-gray-800">LOREM</a>
+              </li>
+            </nav>
           </div>
         </div>
       </div>
-      <div className="w-full bg-[#E5E5E5] h-0.5 lg:h-[1px] mt-5"></div>
-      <div className="flex items-center justify-center mx-2">
-        Copyright &#169; Bakas | Designed by Astranix
+      <div className="bg-gray-100">
+        <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+          <p className="text-gray-500 text-sm text-center sm:text-left">© 2020  All rights reserved —
+            <a href="https://anjali.info.np/" rel="noopener noreferrer" className="text-gray-600 ml-1" target="_blank">@Anjali </a>
+          </p>
+          <span className="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+            <a className="text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a className="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a className="ml-3 text-gray-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a className="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" className="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
       </div>
-      <div className="h-4"></div>
-    </div>
-  );
+    </footer>
+  )
 }
-
-const Pages = [
-  { title: " About ", link: "#" },
-  { title: " Skills", link: "#" },
-  { title: " Project ", link: "#" },
-  { title: " Writing ", link: "#" },
-  { title: " Contact ", link: "#" },
-];
-
-const Skills = [
-  { title: "Skills", link: "#" },
-  { title: " Skills", link: "#" },
-  { title: "Skills", link: "#" },
-  { title: "Skills ", link: "#" },
-  { title: "Skills", link: "#" },
-];
-
-const SocialIcons = () => {
-  const socialMediaIcons = [
-    { link: "#", icon: <FacebookIcon /> },
-    { link: "#", icon: <TwitterIcon /> },
-    { link: "#", icon: <InstagramIcon /> },
-    { link: "#", icon: <LinkedinIcon /> },
-  ];
-  return (
-    <div className="flex text-[#292F36] gap-5">
-      {socialMediaIcons.map(({ link, icon }, index) => (
-        <a className="h-8 w-8" href={link} key={index}>
-          {icon}
-        </a>
-      ))}
-    </div>
-  );
-};
