@@ -37,7 +37,7 @@ export default function Footer() {
             <div className="font-DmserifDisplay text-gray-800 text-base font-bold">Services</div>
             <div className="flex flex-col leading-relaxed lg:leading-loose w-fit ">
               {Skills.map((skill, index) => (
-                <Link passHref href={skill.link} >
+                <Link passHref href={skill.link} key={index} >
                   <div>{skill.title}</div>
                 </Link>
               ))}
