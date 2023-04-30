@@ -3,25 +3,23 @@ import React from 'react'
 
 export default function AppHeader() {
     return (
-        <header className="text-gray-600 body-font">
-            <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-
-                <Link href='/' className=" ml-3h-14 w-40 text-base font-bold">LOGO</Link>
-
-                <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-                    <a href="/" className="mr-5 hover:text-gray-900">Home</a>
-                    <a href='/About' className="mr-5 hover:text-gray-900">About</a>
-                    <a href='/Skills' className="mr-5 hover:text-gray-900">Skills</a>
-                    <a href='/Project' className="mr-5 hover:text-gray-900">Project</a>
-                    <a href='/Writing' className="mr-5 hover:text-gray-900">Writing</a>
-                    <a href='/Contact' className="mr-5 hover:text-gray-900">Contact</a>
-                </nav>
-                <Link href='/assets/images/CDC_UNIT-1.pdf'>
-                    <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">CV
-
-                    </button>
-                </Link>
+        <div className='grid lg:grid-flow-col justify-between p-5 text-gray-700'>
+            <div className="flex rounded p-2  text-base font-bold">
+                <Link href='/'>
+                    LOGO
+                </Link></div>
+            <div className="flex rounded p-2 justify-end text-base font-bold lg:bg-slate-400 lg:order-last"><Link href='/'>
+                CV
+            </Link></div>
+            <div className="flex justify-start lg:justify-center col-span-2 items-center">
+                <Link href="/" className="mr-5 hover:text-gray-900">Home</Link>
+                <Link href='/About' className="mr-5 hover:text-gray-900">About</Link>
+                <Link href='/Skills' className="mr-5 hover:text-gray-900">Skill</Link>
+                <Link href='/Project' className="mr-5 hover:text-gray-900">Project</Link>
+                <Link href='/Writing' className="mr-5 hover:text-gray-900">Writing</Link>
+                <Link href='/Contact' className="mr-5 hover:text-gray-900">Contact</Link>
             </div>
-        </header>
+
+        </div>
     )
 }
